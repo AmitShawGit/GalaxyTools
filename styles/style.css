@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +15,14 @@
 
 a {
   color: inherit;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.text-green {
+  color: #79E65B;
 }
 
 .topbar {
@@ -41,6 +49,9 @@ a {
   background-color: #000;
   font-size: 15px;
 }
+.navbar .bi-list {
+  color: #fff;
+}
 .navbar ul .nav-link {
   color: #ffffff;
   font-style: italic;
@@ -64,11 +75,61 @@ a {
   font-size: 15px;
 }
 
+.hero-section {
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  background-image: url("../img/hero_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  text-align: center;
+  min-height: 485px;
+}
+.hero-section h1 {
+  font-size: 40px;
+  max-width: 550px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  padding-top: 5rem;
+  line-height: 60px;
+}
+.hero-section .blade_img {
+  left: 50%;
+  width: 600px;
+  transform: translate(-50%);
+  bottom: -64%;
+  animation: circularAnimate 15s linear infinite;
+}
+
+@keyframes circularAnimate {
+  0% {
+    transform: translate(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%) rotate(360deg);
+  }
+}
 @media (max-width: 992px) {
   .d-desktop {
     display: none;
   }
   .d-mobile {
     display: block;
+  }
+}
+@media (max-width: 390px) {
+  .hero-section {
+    min-height: 350px;
+  }
+  .hero-section h1 {
+    line-height: 40px;
+    font-size: 25px;
+    padding-top: 3rem;
+  }
+  .hero-section .blade_img {
+    bottom: -57%;
   }
 }/*# sourceMappingURL=style.css.map */
