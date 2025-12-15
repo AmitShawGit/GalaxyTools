@@ -27,10 +27,9 @@
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" class="img-fluid"></a>
 
-                <i class="bi bi-list" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"></i>
-              
+                <i class="bi bi-list d-mobile" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
+
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -71,12 +70,52 @@
                 <img src="./img/blade_red.webp" alt="blade" class="img-fluid pos-absolute blade_img">
             </div>
         </section>
+
+        <section class="trending_blade">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="right">
+                        <h2>Trending Blades</h2>
+                        <p class="secondary-heading">Explore the latest must-have products everyone’s talking about.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button>View Collection <i class="bi bi-chevron-right"></i></button>
+
+                    </div>
+                </div>
+
+                <div class="row" id="trending_blade">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <span class="trendy">trendy</span>
+                                <img src="./img/blade_red.webp" alt="blade" class="img-fluid">
+                            </div>
+                            <h3>Panel Saw Blade</h3>
+                            <p>for Bi-Laminated MDF and Particle
+                                Board</p>
+                            <p class="tooth">Tooth Profile</p>
+                            <p class="desc">Flat-Triple Chip Tooth with Positive Cutting</p>
+                            <ul class="ratings">
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li>(2 review)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+    <script src="./scripts/dynamic.js"></script>
 
 </body>
 

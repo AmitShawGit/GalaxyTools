@@ -15,6 +15,51 @@
     display: none;
 }
 
+.secondary-heading {
+    color: #7D879C;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.btn-container {
+
+
+
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 1rem 2rem 1rem 1rem;
+        background-color: #EAEAEC;
+        border-radius: 35px;
+        position: relative;
+
+        width: 183px;
+        text-align: left;
+        font-size: 15px;
+
+
+        &::before {
+            width: 45px;
+            height: 80%;
+            position: absolute;
+            background-color: #000;
+            content: "";
+            right: 5px;
+            border-radius: 50%;
+            top: 6px;
+
+        }
+
+        .bi-chevron-right {
+            position: absolute;
+            right: 0;
+            color: #fff;
+            right: 20px;
+        }
+    }
+}
+
 // topbar
 a {
     color: inherit;
@@ -118,6 +163,94 @@ a {
         bottom: -64%;
         animation: circularAnimate 15s linear infinite;
     }
+}
+
+
+.trending_blade {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+
+    h2 {
+        font-family: 'barlow';
+        font-weight: bold;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+    }
+
+
+    .card {
+        background-color: #EAEAEC;
+        padding: 1rem;
+        border: none;
+        font-family: "Barlow";
+        margin-bottom: 1rem;
+
+        .card-img {
+            background-color: #fff;
+            position: relative;
+            text-align: center;
+
+            img {
+                width: 200px;
+                height: 200px;
+
+            }
+
+            .trendy {
+                background-color: #C19A6B;
+                color: #fff;
+                padding: 0.2rem 2rem;
+                text-transform: capitalize;
+                border-radius: 35px;
+                position: absolute;
+                left: 5px;
+                font-size: 12px;
+                top: 10px;
+            }
+        }
+
+        h3 {
+            padding-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .tooth {
+            font-size: 12px;
+            font-weight: 550;
+        }
+
+        .desc {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .ratings {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: inline-flex;
+            gap: 0.3rem;
+            font-size: 15px;
+
+            i {
+                color: #D7BE1E;
+            }
+
+            li {
+                color: #767676
+            }
+        }
+    }
+
 }
 
 

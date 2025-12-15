@@ -13,6 +13,41 @@
   display: none;
 }
 
+.secondary-heading {
+  color: #7D879C;
+  font-size: 15px;
+  font-family: "poppins";
+}
+
+.btn-container button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem 1rem 1rem;
+  background-color: #EAEAEC;
+  border-radius: 35px;
+  position: relative;
+  width: 183px;
+  text-align: left;
+  font-size: 15px;
+}
+.btn-container button::before {
+  width: 45px;
+  height: 80%;
+  position: absolute;
+  background-color: #000;
+  content: "";
+  right: 5px;
+  border-radius: 50%;
+  top: 6px;
+}
+.btn-container button .bi-chevron-right {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  right: 20px;
+}
+
 a {
   color: inherit;
 }
@@ -102,6 +137,78 @@ a {
   transform: translate(-50%);
   bottom: -64%;
   animation: circularAnimate 15s linear infinite;
+}
+
+.trending_blade {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.trending_blade h2 {
+  font-family: "barlow";
+  font-weight: bold;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.trending_blade .card {
+  background-color: #EAEAEC;
+  padding: 1rem;
+  border: none;
+  font-family: "Barlow";
+  margin-bottom: 1rem;
+}
+.trending_blade .card .card-img {
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+.trending_blade .card .card-img img {
+  width: 200px;
+  height: 200px;
+}
+.trending_blade .card .card-img .trendy {
+  background-color: #C19A6B;
+  color: #fff;
+  padding: 0.2rem 2rem;
+  text-transform: capitalize;
+  border-radius: 35px;
+  position: absolute;
+  left: 5px;
+  font-size: 12px;
+  top: 10px;
+}
+.trending_blade .card h3 {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.trending_blade .card p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.trending_blade .card .tooth {
+  font-size: 12px;
+  font-weight: 550;
+}
+.trending_blade .card .desc {
+  font-size: 12px;
+  font-weight: 400;
+}
+.trending_blade .card .ratings {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-flex;
+  gap: 0.3rem;
+  font-size: 15px;
+}
+.trending_blade .card .ratings i {
+  color: #D7BE1E;
+}
+.trending_blade .card .ratings li {
+  color: #767676;
 }
 
 @keyframes circularAnimate {
