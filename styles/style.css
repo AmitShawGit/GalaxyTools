@@ -155,15 +155,13 @@ a {
   border: none;
   font-family: "Barlow";
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 .trending_blade .card .card-img {
   background-color: #fff;
   position: relative;
   text-align: center;
-}
-.trending_blade .card .card-img img {
-  width: 200px;
-  height: 200px;
+  padding: 0.5rem;
 }
 .trending_blade .card .card-img .trendy {
   background-color: #C19A6B;
@@ -209,6 +207,74 @@ a {
 }
 .trending_blade .card .ratings li {
   color: #767676;
+}
+
+.offer .container {
+  padding: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.84)), url("../img/adsbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer .container h4 {
+  background-color: #C19A6B;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  border-radius: 35px;
+  margin: 2rem 0rem 1rem 0rem;
+  color: #fff;
+}
+.offer .container p {
+  font-size: 50px;
+  font-family: "Aclonica";
+  color: #fff;
+}
+
+footer {
+  padding: 3rem 0;
+  background-color: #000;
+  color: #fff;
+}
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li {
+  margin-bottom: 0.5rem;
+  color: #7D879C;
+}
+footer ul li:hover {
+  color: #98a3ba;
+}
+footer ul li a {
+  text-decoration: none;
+}
+
+.review {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.review .swiper-slide {
+  background-color: #F1F1F1;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.review .swiper-slide .customer_name {
+  padding-left: 1rem;
+}
+.review .swiper-slide ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 0.3rem;
+}
+.review .swiper-slide ul li {
+  color: #D7BE1E;
 }
 
 @keyframes circularAnimate {

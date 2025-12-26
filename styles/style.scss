@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+$wooden: #C19A6B;
 
 .d-desktop {
     display: block;
@@ -184,17 +185,13 @@ a {
         border: none;
         font-family: "Barlow";
         margin-bottom: 1rem;
+        cursor: pointer;
 
         .card-img {
             background-color: #fff;
             position: relative;
             text-align: center;
-
-            img {
-                width: 200px;
-                height: 200px;
-
-            }
+            padding: 0.5rem;
 
             .trendy {
                 background-color: #C19A6B;
@@ -253,6 +250,88 @@ a {
 
 }
 
+.offer {
+    .container {
+        padding: 2rem;
+        background: linear-gradient(rgb(0 0 0 / 82%), rgb(0 0 0 / 84%)), url("../img/adsbg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        h4 {
+            background-color: $wooden;
+            width: fit-content;
+            padding: 0.5rem 1rem;
+            font-size: 17px;
+            border-radius: 35px;
+            margin: 2rem 0rem 1rem 0rem;
+            color: #fff;
+        }
+
+        p {
+
+            font-size: 50px;
+            font-family: "Aclonica";
+            color: #fff;
+        }
+    }
+}
+
+footer {
+    padding: 3rem 0;
+    background-color: #000;
+    color: #fff;
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 0.5rem;
+            color: #7D879C;
+
+            &:hover {
+                color: #98a3ba;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+.review {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+    .swiper-slide {
+        background-color: #F1F1F1;
+        padding: 2rem;
+        border-radius: 5px;
+
+        .customer_name {
+            padding-left: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            padding-left: 0;
+            gap: 0.3rem;
+
+            li {
+                color: #D7BE1E;
+            }
+
+        }
+    }
+}
 
 @keyframes circularAnimate {
     0% {
