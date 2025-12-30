@@ -87,7 +87,7 @@
       ]
     },
     {
-      "name": "drills",
+      "name": "Multi Boring bits",
       "children": [
         {
           "id": 101,
@@ -161,6 +161,111 @@
           "trendy": "new",
           "img": "drills.png"
         }
+      ]
+    },
+    {
+      "name": "Tct brazed bits",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+      {
+      "name": "Solid carbide bits",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+      {
+      "name": "cutter head",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+     {
+      "name": "knive",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+       {
+      "name": "gue applicators",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+       {
+      "name": "wood working machine",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
+      ]
+    },
+         {
+      "name": "Metal Cutting blade",
+      "children": [
+        {
+          "id": 101,
+          "name": "twist drill bit",
+          "shortDesc": "for hardwood and softwood",
+          "toothProfile": "Standard",
+          "desc": "High-speed steel with polished finish",
+          "trendy": "new",
+          "img": "drills.png"
+        }
+       
       ]
     }
   ]

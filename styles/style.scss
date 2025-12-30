@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-$wooden: #C19A6B;
+$wooden: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);;
 
 .d-desktop {
     display: block;
@@ -146,6 +146,7 @@ a {
     text-align: center;
     min-height: 485px;
 
+
     h1 {
         font-size: 40px;
         max-width: 550px;
@@ -194,7 +195,7 @@ a {
             padding: 0.5rem;
 
             .trendy {
-                background-color: #C19A6B;
+                background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);;
                 color: #fff;
                 padding: 0.2rem 2rem;
                 text-transform: capitalize;
@@ -366,6 +367,46 @@ footer {
 
         .blade_img {
             bottom: -57%;
+        }
+    }
+}
+
+.category {
+    padding-top: 5rem;
+    font-size: 20ox;
+
+    .nav-tabs {
+        border: none;
+        &:focus-visible{
+            outline: none;
+            border: none;
+        }
+    }
+
+    .nav-link {
+        text-transform: capitalize;
+        color: #000;
+        padding: 0.5rem 1rem;
+               border-radius: 7px;
+
+        &.active {
+            background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
+            color: #fff;
+     
+        }
+        .nav-item{
+             &:hover , &:focus , &:focus-visible , :focus-visible {
+    
+
+            border: none;outline: -webkit-focus-ring-color auto 0px;
+            outline: none;
+            box-shadow: 0;
+        }
+        }
+        &:hover , &:focus{
+            border: none;
+            outline: none;
+            box-shadow: 0;
         }
     }
 }

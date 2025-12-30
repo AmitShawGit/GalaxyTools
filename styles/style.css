@@ -164,7 +164,7 @@ a {
   padding: 0.5rem;
 }
 .trending_blade .card .card-img .trendy {
-  background-color: #C19A6B;
+  background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
   color: #fff;
   padding: 0.2rem 2rem;
   text-transform: capitalize;
@@ -216,7 +216,7 @@ a {
   background-size: cover;
 }
 .offer .container h4 {
-  background-color: #C19A6B;
+  background-color: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem 1rem;
@@ -305,4 +305,36 @@ footer ul li a {
   .hero-section .blade_img {
     bottom: -57%;
   }
+}
+.category {
+  padding-top: 5rem;
+  font-size: 20ox;
+}
+.category .nav-tabs {
+  border: none;
+}
+.category .nav-tabs:focus-visible {
+  outline: none;
+  border: none;
+}
+.category .nav-link {
+  text-transform: capitalize;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+}
+.category .nav-link.active {
+  background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
+  color: #fff;
+}
+.category .nav-link .nav-item:hover, .category .nav-link .nav-item:focus, .category .nav-link .nav-item:focus-visible, .category .nav-link .nav-item :focus-visible {
+  border: none;
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: none;
+  box-shadow: 0;
+}
+.category .nav-link:hover, .category .nav-link:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0;
 }/*# sourceMappingURL=style.css.map */
