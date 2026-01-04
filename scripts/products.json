@@ -1,61 +1,62 @@
 {
   "categories": [
     {
-      "name": "blade",
+      "name": "Tct saw blade",
       "children": [
         {
           "id": 1,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "name": "Panel Sizing Blade",
+          "shortDesc": "for Particle Board",
+          "toothProfile": "355m-14",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "/blades/panel-sizing-blade-for-particle-board.png"
         },
-        {
+         {
           "id": 2,
-          "name": "panel saw blade",
+          "name": "Woodcut Teeth",
           "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "toothProfile": "12inch 96",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "/blades/woodcut_teeth.png"
         },
         {
           "id": 3,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "name": "Alumunium cutting blade ",
+          "shortDesc": "for Aluminum cutting",
+          "toothProfile": "500x30x120",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "/blades/alumunium_cutting_blade.png"
         },
         {
-          "id": 3,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
+          "id": 4,
+          "name": "Woodcut TCT Circular Saw",
+          "shortDesc": "for Woodcutting",
+          "toothProfile": "500x30x120",
+          "desc": "Flat-triple Chip tooth with positive cutting",
+          "trendy": "trendy",
+          "img": "/blades/woodcut_tct_circular_saw.png"
+        },
+       
+        {
+          "id": 5,
+          "name": "Panel Sizing Blade ",
+          "shortDesc": "for horizontal beam saw",
           "toothProfile": "Tooth Profile",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "/blades/panel_sizing_blade__horizontal_beam.png"
         },
         {
-          "id": 3,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "id": 6,
+          "name": "Panel saw blade  ",
+          "shortDesc": "for plywood",
+          "toothProfile": "300x3.2x30x96 atb ",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
-        },
-        {
-          "id": 3,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
-          "desc": "Flat-triple Chip tooth with positive cutting",
-          "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "blades/panel_saw_blade.png"
         },
         {
           "id": 3,
@@ -224,7 +225,7 @@
       ]
     },
        {
-      "name": "gue applicators",
+      "name": "glue applicators",
       "children": [
         {
           "id": 101,
