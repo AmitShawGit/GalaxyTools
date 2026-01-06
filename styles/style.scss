@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-$wooden: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);;
+$wooden: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
+;
 
 .d-desktop {
     display: block;
@@ -192,10 +193,11 @@ a {
             background-color: #fff;
             position: relative;
             text-align: center;
-            padding: 0.5rem;
+            // padding: 0.5rem;
 
             .trendy {
-                background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);;
+                background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
+                ;
                 color: #fff;
                 padding: 0.2rem 2rem;
                 text-transform: capitalize;
@@ -377,7 +379,13 @@ footer {
 
     .nav-tabs {
         border: none;
-        &:focus-visible{
+        position: sticky;
+        top: 0;
+        z-index: 9;
+        background: #fff;
+        padding: 1rem 0.3rem;
+
+        &:focus-visible {
             outline: none;
             border: none;
         }
@@ -387,23 +395,31 @@ footer {
         text-transform: capitalize;
         color: #000;
         padding: 0.5rem 1rem;
-               border-radius: 7px;
+        border-radius: 7px;
 
         &.active {
             background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
             color: #fff;
-     
-        }
-        .nav-item{
-             &:hover , &:focus , &:focus-visible , :focus-visible {
-    
 
-            border: none;outline: -webkit-focus-ring-color auto 0px;
-            outline: none;
-            box-shadow: 0;
         }
+
+        .nav-item {
+
+            &:hover,
+            &:focus,
+            &:focus-visible,
+            :focus-visible {
+
+
+                border: none;
+                outline: -webkit-focus-ring-color auto 0px;
+                outline: none;
+                box-shadow: 0;
+            }
         }
-        &:hover , &:focus{
+
+        &:hover,
+        &:focus {
             border: none;
             outline: none;
             box-shadow: 0;

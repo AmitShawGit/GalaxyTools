@@ -12,7 +12,7 @@
           "trendy": "trendy",
           "img": "/blades/panel-sizing-blade-for-particle-board.png"
         },
-         {
+        {
           "id": 2,
           "name": "Woodcut Teeth",
           "shortDesc": "for Bi-Laminated MDF and Praticle Board",
@@ -39,7 +39,6 @@
           "trendy": "trendy",
           "img": "/blades/woodcut_tct_circular_saw.png"
         },
-       
         {
           "id": 5,
           "name": "Panel Sizing Blade ",
@@ -59,31 +58,31 @@
           "img": "blades/panel_saw_blade.png"
         },
         {
-          "id": 3,
+          "id": 7,
           "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "shortDesc": "for hard wood",
+          "toothProfile": "300x3.2x30x48z",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "blades/panel_saw_blade_hard_wood.png"
         },
         {
-          "id": 3,
-          "name": "panel saw blade",
-          "shortDesc": "for Bi-Laminated MDF and Praticle Board",
+          "id": 8,
+          "name": "circular saw blade",
+          "shortDesc": "for Woodcutting",
           "toothProfile": "Tooth Profile",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "blades/circular_saw_blade.png"
         },
         {
-          "id": 3,
-          "name": "panel saw blade",
+          "id": 9,
+          "name": "Woodcut Blade",
           "shortDesc": "for Bi-Laminated MDF and Praticle Board",
-          "toothProfile": "Tooth Profile",
+          "toothProfile": "12inch 96Teeth",
           "desc": "Flat-triple Chip tooth with positive cutting",
           "trendy": "trendy",
-          "img": "blade_red.webp"
+          "img": "blades/woodcut_blade.png"
         }
       ]
     },
@@ -176,10 +175,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-      {
+    {
       "name": "Solid carbide bits",
       "children": [
         {
@@ -191,10 +189,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-      {
+    {
       "name": "cutter head",
       "children": [
         {
@@ -206,10 +203,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-     {
+    {
       "name": "knive",
       "children": [
         {
@@ -221,10 +217,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-       {
+    {
       "name": "glue applicators",
       "children": [
         {
@@ -236,10 +231,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-       {
+    {
       "name": "wood working machine",
       "children": [
         {
@@ -251,10 +245,9 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     },
-         {
+    {
       "name": "Metal Cutting blade",
       "children": [
         {
@@ -266,7 +259,6 @@
           "trendy": "new",
           "img": "drills.png"
         }
-       
       ]
     }
   ]

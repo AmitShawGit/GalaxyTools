@@ -161,7 +161,6 @@ a {
   background-color: #fff;
   position: relative;
   text-align: center;
-  padding: 0.5rem;
 }
 .trending_blade .card .card-img .trendy {
   background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
@@ -312,6 +311,11 @@ footer ul li a {
 }
 .category .nav-tabs {
   border: none;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background: #fff;
+  padding: 1rem 0.3rem;
 }
 .category .nav-tabs:focus-visible {
   outline: none;
@@ -327,7 +331,8 @@ footer ul li a {
   background: linear-gradient(to right, #c69c6d, #b28559, #9d6e46, #895835, #754224);
   color: #fff;
 }
-.category .nav-link .nav-item:hover, .category .nav-link .nav-item:focus, .category .nav-link .nav-item:focus-visible, .category .nav-link .nav-item :focus-visible {
+.category .nav-link .nav-item:hover, .category .nav-link .nav-item:focus, .category .nav-link .nav-item:focus-visible,
+.category .nav-link .nav-item :focus-visible {
   border: none;
   outline: -webkit-focus-ring-color auto 0px;
   outline: none;
